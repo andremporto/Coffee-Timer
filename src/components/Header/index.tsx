@@ -1,7 +1,7 @@
 import { HeaderContainer } from './styles';
 import { Timer, Scroll } from 'phosphor-react';
 
-import coffeeLogo from '../../assets/coffee.svg';
+import coffeeLogo from '../../assets/coffeetimer.svg';
 import { NavLink } from 'react-router-dom';
 
 export function Header() {
