@@ -1,6 +1,6 @@
 {
 	"name": "coffee-timer",
-	"homepage": " https://andremporto.github.io/Coffee-Timer",
+	"homepage": " https://github.com/andremporto/Coffee-Timer",
 	"private": true,
 	"version": "0.1.0",
 	"type": "module",
