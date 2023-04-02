@@ -6,6 +6,9 @@
 =======
 	"version": "0.1.0",
 	"homepage": "https://andremporto.github.io/Coffee-Timer",
+<<<<<<< HEAD
+>>>>>>> parent of 0912f9f (Update package.json)
+=======
 >>>>>>> parent of 0912f9f (Update package.json)
 	"type": "module",
 	"scripts": {
