@@ -1,9 +1,16 @@
 {
 	"name": "coffee-timer",
 	"private": true,
+<<<<<<< HEAD
 	"version": "0.0.0",
+=======
+	"version": "0.1.0",
+	"homepage": "https://andremporto.github.io/Coffee-Timer",
+>>>>>>> parent of 0912f9f (Update package.json)
 	"type": "module",
 	"scripts": {
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d dist",
 		"dev": "vite",
 		"build": "tsc && vite build",
 		"preview": "vite preview"
@@ -32,6 +39,7 @@
 		"eslint-plugin-n": "^15.6.1",
 		"eslint-plugin-promise": "^6.1.1",
 		"eslint-plugin-react": "^7.32.2",
+		"gh-pages": "^5.0.0",
 		"typescript": "^4.9.5",
 		"vite": "^4.2.0"
 	}
