@@ -1,9 +1,9 @@
-import { useContext } from 'react';
-import { formatDistanceToNow } from 'date-fns';
-import ptBR from 'date-fns/locale/pt-BR';
-import { CyclesContext } from '../../contexts/CyclesContext';
-import { HistoryContainer, HistoryList, Status } from './styles';
-import { format, formatDistance, formatRelative, subDays } from 'date-fns';
+import { useContext } from "react";
+import { formatDistanceToNow } from "date-fns";
+import ptBR from "date-fns/locale/pt-BR";
+import { CyclesContext } from "../../contexts/CyclesContext";
+import { HistoryContainer, HistoryList, Status } from "./styles";
+import { format, formatDistance, formatRelative, subDays } from "date-fns";
 
 export function History() {
 	const { cycles } = useContext(CyclesContext);
@@ -29,14 +29,11 @@ export function History() {
 									<td>{cycle.task}</td>
 									<td>{cycle.minutesAmount} minutos</td>
 									<td>
-										{/* {formatDistance(cycle.startDate, new Date(), {
-											addSuffix: true,
-										})} */}
-										{cycle.startDate.toString()}
-										{/* {formatDistanceToNow(cycle.startDate, {
+										{formatDistanceToNow(cycle.startDate, {
 											addSuffix: true,
 											locale: ptBR,
-										})} */}
+										})}
+										&rbrace;
 									</td>
 									<td>
 										{cycle.finishedDate && (
