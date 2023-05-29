@@ -1,6 +1,11 @@
 {
 	"name": "coffee-timer",
+<<<<<<< HEAD
 	"version": "0.1.0",
+=======
+	"private": true,
+	"version": "0.0.0",
+>>>>>>> parent of b187195 (update)
 	"type": "module",
 	"scripts": {
 		"dev": "vite",
